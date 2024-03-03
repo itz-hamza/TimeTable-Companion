@@ -1,0 +1,4 @@
+need to convert the friday timetable file into a csv which will store 8 blocks instead of 11
+
+need to parse the time table in way that when it encounters a lab, it add 3 ones instead of 1
+

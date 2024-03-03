@@ -1,0 +1,184 @@
+FRIDAY,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7,Unnamed: 8,Unnamed: 9,Unnamed: 10,Unnamed: 11,Unnamed: 12,Unnamed: 13,Unnamed: 14,Unnamed: 15
+Slots,1,2,3,4,5,6,,7,8,9,,,,,
+Venues/time,08-8:50,08:50 - 09:40,09:40 - 10:30,10:30 - 11:20,11:20 - 12:10,12:10 - 01:00,01:00 - 01:40,01:40 - 02:30,02:30 - 03:20,03:20 - 04:10,,,,,
+CLASSROOMS,,,,,,,,,,,,,,,
+E1 CS(50),,,"TBW BCS-6B
+ Javeria Ali","CN BSE-6A
+ Hira Tunio","SE BCS-6B
+ Farrukh Hassan Syed","SM BSE-6A
+ Shahid Ashraf",Jumma Namaz Break,"SE BCS-6E
+ Javeria Farooq","AI BCY-6A
+Sandesh Kumar","AI BCY-6B
+Sandesh Kumar",,,,,
+E2 CS (50),"CN BCS-6G
+ Yusra Kaleem","RS BAI-6A
+ Dr. Farrukh Shahid","RS BAI-6B
+ Dr. Farrukh Shahid",,"WE BSE-6B
+ Ali Fatmi","VARE BCY-6B
+ Muhammad Nouman Rajput",,,,,,,,,
+E3 CS (50),"AI BCY-6A
+ Sandesh Kumar","CN BCS-6H
+ Yusra Kaleem","CN BCS-6E
+ Dr. Aqsa Aslam","CN BCS-6F
+ Dr. Aqsa Aslam","VARE BCY-6A
+ Abuzar Zafar",,,"CN BSE-6B
+ Hira Tunio","SM BSE-6B
+ Shahid Ashraf",,,,,,
+E4 CS (50),"SE BCS-6H
+ Noureen Fatima","CN BCS-6C
+ Dr. Ghufran Ahmed",,"SE BCS-6K
+ Hajra Ahmed","SE BCS-6G
+ Noureen Fatima","AI BCS-6K
+ Ahmed Mujtaba Shaikh",,"WE BSE-6A
+ Ali Fatmi","WE BSE-6A
+ Ali Fatmi",,,,,,
+E5 CS (50),"TBW BCS-6E
+Javeria Ali","CN BCS-6J
+ Dr. Nausheen Shoaib","TBW BCS-6J
+Atifa Batool","AI BCS-6J
+Fizza Aqeel","SE BCS-6J
+ Hajra Ahmed","PDC BAI-6B
+ Farooq Zaidi",,,,,,,,,
+E6 CS (50),"ANN BAI-6A
+ Dr. Maria","TBW BCS-6K
+ Atifa Batool","SE BCS-6G
+ Noureen Fatima",,"PDC BAI-6A
+ Farooq Zaidi","AI BCS-6G
+Fizza Aqeel",,,,,,,,,
+R11 CS (50),"SM BSE-6B
+ Shahid Ashraf","WE BSE-6B
+ Ali Fatmi","AI BCS-6H
+ Fizza Aqeel","OS BCY-6A
+Dr. Nausheen Shoaib",Reserved for Dr. Anam Qureshi,"AI BCY-6A
+Sandesh Kumar",,"OS BCY-6A
+Dr. Nausheen Shoaib",,,,,,,
+R12 CS (70),"CN BAI-6B
+ Rafia","TBW BCS-6G
+ Ms. Khadija","SE BCS-6D
+ Sobia Iftikhar","CN BCS-6B
+ Dr. Ghufran Ahmed",,"CN BAI-6A
+ Rafia",,,,,,,,,
+R109 CS (50),,,,,,,,,,,,,,,
+B-9 EE (53),"Reserved for Ms Hajra 
+BCS-6J",,,"OOP BCS-2E
+Abeeha Sattar","OOP BCS-2C
+Basit Ali",,,"TSC BCS-2A
+Farhan Ali Memon","OOP BCS-2A
+Basit Ali",,,,,,
+C-14 EE (50),,"OOP BCS-2B
+Sobia Iftikhar","MVC BCS-2E
+Fareeha Sultan","MVC BCS-2G
+Dr. Fahad Riaz","DLD BCS-2A
+Waqar Ahmed","MVC BCS-2A
+Dr. Fahad Riaz",,"ICP BCS-2B
+Kashif Ahmed","EW BCS-2B
+Nazia Imam",,,,,,
+C-16 EE (50),"OOP BCS-2D
+Sumaiyah Zahid","TSC BCS-2D
+Dr. Shahzad Shaikh","DLD BCS-2D
+Rabia Tabassum","MVC BCS-2D
+Fareeha Sultan","MVC BCS-2B
+Dr. Nazish Kanwal","OOP BCS-2D
+Sumaiyah Zahid",,"TSC BCS-2C
+Dr. Hassan Saeed","ICP BCS-2C
+Kashif Ahmed","MVC BCS-2C
+Alishba Tariq",,,,,
+C-17 EE (59),"OOP BCS-2E
+Abeeha Sattar","TSC BCS-2E
+Dr. Hassan Saeed","TSC BCS-2B
+Dr. Shahzad Shaikh",,"TSC BCS-2F
+Dr. Shahzad Shaikh","TSC BCS-2H
+Dr. Shahzad Shaikh",,"MVC BCS-2F
+Dr. Nazish Kanwal","OOP BCS-2F
+Abeeha Sattar",,,,,,
+C-18 EE (50),"OOP BCS-2H
+Atiya Jokhio","MVC BCS-2H
+Alishba Tariq","MVC BCS-2H
+Alishba Tariq",,"TSC BCS-2G
+Dr. Hassan Saeed","DLD BCS-2F
+Rabia Tabassum",,"MVC BCS-2G
+Dr. Fahad Riaz","OOP BCS-2G
+Bakhtawer","EW BCS-2G
+Faiza Mumtaz",,,,,
+C-19 EE (50),,"OOP BCY-2B
+Abeer Gauhar","DLD BCY-2B
+Kariz Kamal","MVC BCY-2B
+Dr. Nazish Kanwal",,"DLD BCY-2B
+Kariz Kamal",,"OOP BCS-2H
+Atiya Jokhio",,,,,,,
+C-21 EE (50),,,,,"DLD BCS-2J
+Kashan Hussain","FE BCS-2A
+Sharmeen Ismail",,"OOP BAI-2A
+Rafia","MVC BAI-2A
+Uzma Saleh",,,,,,
+D-22 EE (50),,,,,"TSC BAI-2A
+Farhan Ali Memon","EW BAI-2A
+Nazia Imam",,,,,,,,,
+D-23 EE (50),,,,,"DLD BCY-2A
+Kariz Kamal","MVC BCY-2A
+Dr. Nazish Kanwal",,"DE BAI-4B
+ Alishba Tariq ","DS BSE-4A (BSE, BAI)
+Fahad Hussain",,,,,,
+D-24 EE (50),,,,"Dis BCS-4A BCS,AI,SE,CY
+ Safia Baloch","Dis BCS-4A BCS,AI,SE,CY
+ Safia Baloch","DE BAI-4A
+ Muhammad Amjad",,,"LA BCS-2A
+Jamil Usmani","LA BCS-2A
+Jamil Usmani",,,,,
+D-25 EE (50),,,Reserrved for EE,,,,,,,,,,,,
+D-26 EE (50),,,Reserved for Desk,Reserved for Desk,Reserved for Desk,Reserved for Desk,,,,,,,,,
+D-27 EE (50),,,Reserrved for EE,,,,,,,,,,,,
+D-28 EE (50),,,,Reserved for FSM,,,,,,,,,,,
+E-29EE (52),,,,,,,,,,,,,,,
+E-30 EE (52),,,,,,,,,,,,,,,
+E-31 EE (52),,,,,,,,,,,,,,,
+E-32 EE (52),,,,,,,,,,,,,,,
+E-33 EE (52),,,,,,,,,,,,,,,
+E-34 EE (52),,,,,,,,,,,,,,,
+E-35 EE (52),,,,,,,,,,,,,,,
+LLC(R7) (50),"EW Lab BCY-2A
+Maryam",,,Reserved for Huma Hafiz,,,,"EW Lab BCS-2J
+Huma Hafeez",,,,,,,
+C-20 EE (50),"EW Lab BAI-2A
+Nazia Imam",,,,"EW BCS-2H
+Huma Hafeez",Reserved for Faiza Mumtaz,,"EW Lab BCY-2B
+Javeria Ali",,,,,,,
+LABS,,,,,,,,,,,,,,,
+CS LAB-1 (50),"COAL Lab BCS-4B (E,F,G,H)
+Nouman Hanif",,,,,,,,,,,,,,1.0
+CS LAB-2 (40),"COAL Lab BCS-4C (J,K,BSR-A,B,C)
+Zakir Hussain",,,,,,,"PAI Lab BAI-4A
+Sameer Faisal",,,,,,,
+CS LAB-4 (50),"DLD Lab BCS-2A
+Muhammad Afnan",,,,,,,"DLD Lab BCY-2A
+Nouman Hanif",,,,,,,
+CS LAB-5 (50),"OOP Lab BCS-2C
+Syeda Mahnoor Javed",,,Reserved for Waseem Rauf,,,,"DS Lab BCS-4A (A,B,C,D,E, BCY)
+Hafiza Bushra Sattar",,,,,,,
+CS LAB-6 (50),"OOP Lab BCS-2F
+Shaharbano",,,"CN Lab BCS-6C
+Shaheer Ahmed Khan",,,,"AI Lab BCS-6C
+Zain Noreen",,,,,,,
+EE LAB-7 (50),"OOP Lab BCS-2J
+Fatima Gado",,,"AI Lab BCS-6A
+Shafique Rehman",,,,"AI Lab BCS-6B
+Shafique Rehman",,,,,,,
+EE LAB-8 (50),"CN Lab BSE-6A
+ Nadeem",,,,,,,"AI Lab BCS-6G
+Muhammad Aashir",,,,,,,
+EE LAB-10 (50),"DS Lab BSE-4A (BSE, BAI)
+Hafiza Bushra Sattar",,,"AI Lab BCS-6D
+Yasir Arafat",,,,"CN Lab BCS-6F
+Waseem Rauf",,,,,,,
+EE LAB-11 (51),"AI Lab BCS-6F
+Zarnain",,,"CN Lab BCS-6E
+Ubaidullah",,,,"CN Lab BCS-6H
+Rabia Ahmed",,,,,,,
+EE LAB-12 (51),"VARE Lab BCY-6B
+Abuzar Zafar",,,,,,,"CN Lab BCS-6K
+Areeb Ahmed",,,,,,,
+EE LAB-13 (51),"CN Lab BCS-6A
+Kashan Hussain ",,,FSM,,,,FSM,,,,,,,
+MPI LAB (51),"DLD Lab BCS-2G
+Rukhsar Ali",,,,,,,"DLD Lab BCS-2E
+Hamza Ahmed",,,,,,,
