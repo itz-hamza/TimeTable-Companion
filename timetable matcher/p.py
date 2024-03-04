@@ -61,9 +61,9 @@ for k in range(len(ListOfDF)):
  #           FreeTime.append(times)
 
 for i in range(len(ListOfDF)):
-    for j in range(len(ListOfDF[i].columns)):
-        if(TimeTable6A[i][j] == 0 and TimeTable6F[i][j]==0):
-            print(f"You both have free time during {ListOfDF[i].iloc[1,j]}")
+    for j in range(1,len(ListOfDF[i].columns)):
+        if(TimeTable6A[i][j] == 0 and TimeTable6F[i][j]==0 and i != 1):
+            print(f"You both have free time during {ListOfDF[i].iloc[1,j]} on {ListOfDF[i].columns.values[0]} ")
             
 
  
