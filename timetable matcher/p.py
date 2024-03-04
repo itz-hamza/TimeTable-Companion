@@ -11,12 +11,13 @@ import numpy as np
 
 # reading all csv files into a list of dataframes
 ListOfDF = []
-ListOfDF.append( pd.read_csv('MONDAY.csv'))
-ListOfDF.append( pd.read_csv('TUESDAY.csv'))
-ListOfDF.append( pd.read_csv('WEDNESDAY.csv'))
-ListOfDF.append( pd.read_csv('THURSDAY.csv'))
-ListOfDF.append(  pd.read_csv('FRIDAY .csv'))
+ListOfDF.append( pd.read_csv(r'timetable matcher\MONDAY.csv'))
+ListOfDF.append( pd.read_csv(r'timetable matcher/TUESDAY.csv'))
+ListOfDF.append( pd.read_csv(r'timetable matcher\WEDNESDAY.csv'))
+ListOfDF.append( pd.read_csv(r'timetable matcher\THURSDAY.csv'))
+#ListOfDF.append(  pd.read_csv('FRIDAY .csv')) #friday is an exception, so will figure it out later
 
+#fridayDF = pd.read_csv('Friday .csv')
 
 keys = [] # to store time periods of a day
 for j in range (1,9):
@@ -30,6 +31,8 @@ valuesInitial = [None,None,None,None,None]  #5 values, each for a day in the wee
 #making a 2d array for timetable of each section. IF there is a class then the value will be one, else it will be zero
 
 TimeTable6F = np.zeros((len(ListOfDF),len(ListOfDF[0].columns)))
+#FridayTimeTable6F = np.zeros((len(ListOfDF),len(ListOfDF[4].columns)))
+#print(FridayTimeTable6F)
 TimeTable6A =  np.zeros((len(ListOfDF),len(ListOfDF[0].columns)))
 
 x = 0
@@ -42,9 +45,13 @@ for k in range(len(ListOfDF)):
             #print(word + str(df.iloc[1,j]))
                 TimeTable6F[k,j] = 1
                 if 'Lab' in word:
-                    print(f'{k} {j} {word}')
+                    TimeTable6F[k+1,j+1]=1
+                    TimeTable6F[k+2,j+2]=1
             if 'BCS-6A' in str(word):
                 TimeTable6A[k,j] = 1
+                if 'Lab' in word:
+                    TimeTable6A[k+1,j+1]=1
+                    TimeTable6A[k+2,j+2]=1
 
 #FreeTime = []
 
@@ -53,10 +60,18 @@ for k in range(len(ListOfDF)):
   #      if timeTable6F[times] == None:
  #           FreeTime.append(times)
 
+for i in range(len(ListOfDF)):
+    for j in range(len(ListOfDF[i].columns)):
+        if(TimeTable6A[i][j] == 0 and TimeTable6F[i][j]==0):
+            print(f"You both have free time during {ListOfDF[i].iloc[1,j]}")
+            
 
-print(TimeTable6F)
-print("\n")
-#print(TimeTable6A)
  
 
  # data is correctly being read. I have two exceptional cases. Labs and electives. I will need to read the data in a notebook and then analyze it to get some insights as to how to make it more efficient to program till then its fine i guess
+
+
+
+# have to make a mapping of days and time on a matrix and try to retrieve day and time from that after getting a solution matrix. I need to make a good solution martrix, preferably a map which has mappings on times of the days. All 8 none except fridays which will have 9. maybe friday will have a different map
+            
+            
