@@ -7,71 +7,52 @@ import numpy as np
  #   df = excelList.parse(sheets)
   #  df.to_csv(f'{sheets}.csv',index=False)
 
-
-
 # reading all csv files into a list of dataframes
 ListOfDF = []
 ListOfDF.append( pd.read_csv(r'timetable matcher\MONDAY.csv'))
 ListOfDF.append( pd.read_csv(r'timetable matcher/TUESDAY.csv'))
 ListOfDF.append( pd.read_csv(r'timetable matcher\WEDNESDAY.csv'))
 ListOfDF.append( pd.read_csv(r'timetable matcher\THURSDAY.csv'))
-#ListOfDF.append(  pd.read_csv('FRIDAY .csv')) #friday is an exception, so will figure it out later
+ListOfDF.append( pd.read_csv(r'timetable matcher\FRIDAY .csv'))
 
-#fridayDF = pd.read_csv('Friday .csv')
+days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday']
+valuesInitial = [None, None, None, None, None, None, None, None]
 
-keys = [] # to store time periods of a day
-for j in range (1,9):
-    keys.append(ListOfDF[0].iloc[1,j]) # making a list which has all the times, like 8-9, 9-10
-valuesInitial = [None,None,None,None,None]  #5 values, each for a day in the week. So a key will be time of the day, and it will have 5 values. At 0 index it would tell about monday, at 1st index it would tell about tuesday
+# Create a dictionary where each day has a separate list
+tt = {day: valuesInitial[:] for day in days}
+tt6A = {day: valuesInitial[:] for day in days}
+tt['friday'].append(None)
+tt6A['friday'].append(None)
 
-#timeTable6F = dict.fromkeys(keys,valuesInitial) #making an empty dictionary with keys only. each key represent a time of the day, like 8-9
-
-#timeTable6A = dict.fromkeys(keys,valuesInitial)
-
-#making a 2d array for timetable of each section. IF there is a class then the value will be one, else it will be zero
-
-TimeTable6F = np.zeros((len(ListOfDF),len(ListOfDF[0].columns)))
-#FridayTimeTable6F = np.zeros((len(ListOfDF),len(ListOfDF[4].columns)))
-#print(FridayTimeTable6F)
-TimeTable6A =  np.zeros((len(ListOfDF),len(ListOfDF[0].columns)))
-
-x = 0
+mapDayToIndex = {0:'monday',1:'tuesday',2:'wednesday',3:'thursday',4:'friday'}
 
 for k in range(len(ListOfDF)):
-    for i in range(len(ListOfDF[k])):
-        for j in range(len(ListOfDF[k].columns)):
+    for i in range(len(ListOfDF[k])): # all the rows
+        for j in range(1,len(ListOfDF[k].columns)):
             word = ListOfDF[k].iloc[i,j]
             if 'BCS-6F' in str(word):
-            #print(word + str(df.iloc[1,j]))
-                TimeTable6F[k,j] = 1
-                if 'Lab' in word:
-                    TimeTable6F[k+1,j+1]=1
-                    TimeTable6F[k+2,j+2]=1
+                tt[mapDayToIndex[k]][j-1] = 1
+                #print(f"{(ListOfDF[k].columns[0])} at {(ListOfDF[k].iloc[1,j])} {word}")
+                #if 'Lab' in word:
+                    #tt[mapDayToIndex[k]][j]=1
+                    #tt[mapDayToIndex[k]][j+1]=1
             if 'BCS-6A' in str(word):
-                TimeTable6A[k,j] = 1
-                if 'Lab' in word:
-                    TimeTable6A[k+1,j+1]=1
-                    TimeTable6A[k+2,j+2]=1
-
-#FreeTime = []
-
-#for times in timeTable6A.keys():
-   # if timeTable6A[times] == None:
-  #      if timeTable6F[times] == None:
- #           FreeTime.append(times)
+                tt6A[mapDayToIndex[k]][j-1] = 1
+            #     if 'Lab' in word:
+            #         tt6A[mapDayToIndex[k+1]][j+1]=1
+            #         tt6A[mapDayToIndex[k+2]][j+2]=1
 
 for i in range(len(ListOfDF)):
-    for j in range(1,len(ListOfDF[i].columns)):
-        if(TimeTable6A[i][j] == 0 and TimeTable6F[i][j]==0 and i != 1):
-            print(f"You both have free time during {ListOfDF[i].iloc[1,j]} on {ListOfDF[i].columns.values[0]} ")
+    for j in range(len(tt[mapDayToIndex[i]])): 
+       if(tt[mapDayToIndex[i]][j] == None and tt6A[mapDayToIndex[i]][j]==None):
+           print(f"You both have free time during {ListOfDF[i].iloc[1,j+1]} on {mapDayToIndex[i]} ")
             
-
- 
-
+# need to make another tt for another section
  # data is correctly being read. I have two exceptional cases. Labs and electives. I will need to read the data in a notebook and then analyze it to get some insights as to how to make it more efficient to program till then its fine i guess
 
 
 
 # have to make a mapping of days and time on a matrix and try to retrieve day and time from that after getting a solution matrix. I need to make a good solution martrix, preferably a map which has mappings on times of the days. All 8 none except fridays which will have 9. maybe friday will have a different map
-            
+
+#bas ab file sahi karni hai friday ki aur labs ko dekhna hai
             
