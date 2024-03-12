@@ -1,47 +1,44 @@
-TUESDAY,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6,Unnamed: 7,Unnamed: 8
-Slots,1,2,3,4,5,6,7,8
-Venues/time,08-8:55,09:00-09:55,10:00-10:55,11:00-11:55,12:00-12:55,1:00-01:55,02:00-02:55,03:00-03:55
-CLASSROOMS,,,,,,,,
-E1 CS(50),"DS BCS-8B
+,1,2,3,4,5,6,7,8
+3,"DS BCS-8B
  Omer Qureshi","BIO BCS-8A
  Dr. Nasiruddin",Reserved for Ms. Safia,"BIO BCS-8A
  Dr. Nasiruddin","PPIT BAI-8A
 Bilal Ahsan","RS BCS-8B
  Zain ul Hassan",,
-E2 CS (50),"DLP BCS-8B
+4,"DLP BCS-8B
  Summaiyah Zahid","AML / ML BCS-8A
  Noureen Fatima",,,"SRE BSE-8A
 Dr. Muazzam","DDR BCS-8B
  Abdul Rehman","IB BCS-8C (BCS, BCY, AI, SE)
  Zehra Mukhtiar",Reserved for Maintenance
-E3 CS (50),,"SDA BSE-4B
+5,,"SDA BSE-4B
  Rubab Manzar","ADVR BCS-8A (BCS A,B,C)
  Asiya Zaheer","DLP BCS-8A
  Summaiyah Zahid","DLP BCS-8B
  Summaiyah Zahid",,"ADVR BCS-8C (BCY, AI, SE)
  Asiya Zaheer","ADVR BCS-8B (BCS D,E,F)
  Asiya Zaheer"
-E4 CS (50),,"DS BCS-8A
+6,,"DS BCS-8A
  Omer Qureshi",,"DS BCS-8A
  Omer Qureshi",,,,"SRE BSE-8B
 Dr. Muazzam"
-E5 CS (50),,"DLP BCS-8A
+7,,"DLP BCS-8A
  Summaiyah Zahid","IPP BCS-8A
 Dr. Shahnawaz","SOA BCS-8A
  Muhammad Ali","AI BAI-4C
  Dr. Maria",,"SDA BSE-4A
  Rubab Manzar",
-E6 CS (50),"Prob BSR-4B
+8,"Prob BSR-4B
  Nadeem Khan","SOA BCS-8A
  Muhammad Ali","OS BCY-4A
  Shahbaz Siddiqui",,"FSE BCY-4A
  Rubab Manzar",,,
-R11 CS (50),,"OR BSE-4A
+9,,"OR BSE-4A
  Dr. Khusro Mian","OS BSE-4A
  Minhal Raza",,"AI BAI-4B
  Saeeda Kanwal",,"NC BCS-4B
  Nadeem Khan",Reserved for Maintenance
-R12 CS (70),"OS BSE-4B
+10,"OS BSE-4B
  Minhal Raza","Gen AI BCS-8A
  Dr. Atif Tahir","OR BSE-4B
  Dr. Khusro Mian","Gen AI BCS-8A
@@ -49,12 +46,12 @@ R12 CS (70),"OS BSE-4B
 Dr. Zulfiqar Memon","TOA BCS-4C
  Dr. Nasiruddin",,"OS BCY-4A
  Shahbaz Siddiqui"
-R109 CS (50),,,,,,,,
-A - 7 EE (50),"OS BCS-4A
+11,,,,,,,,
+12,"OS BCS-4A
  Dr. Nadeem Kafi","TOA BCS-4A
 Shaharbano",,Resreved for EE,"FOA BCS-4A (A,B,C)
  Dr. Sarfaraz Bhutto",,,
-B-9 EE (53),"CN BCY-4A
+13,"CN BCY-4A
 Muhammad Usman","TBW BCY-4A
  Sameera Sultan","ENTPR BCS-8A (BCS A,B,C)
  Dr. Nazia Nazeer",,"TBW BCY-4B
@@ -62,7 +59,7 @@ Muhammad Usman","TBW BCY-4A
  Syed Faisal Ali","ENTPR BCS-8C (BCY, AI, SE)
  Dr. Nazia Nazeer","ERP BCS-8B (BCS D,E,F)
  Dr. Nazia Nazeer"
-C-14 EE (50),"OS BCY-4B
+14,"OS BCY-4B
  Shahbaz Siddiqui","FSE BCY-4B
  Dr. Abdul Aziz","CN BCY-4B
 Muhammad Usman","COAL BCS-4A (A,B,C,D,L,M,N)
@@ -70,7 +67,7 @@ Muhammad Usman","COAL BCS-4A (A,B,C,D,L,M,N)
  Aashir Mehboob","TOA BCS-4G
  Bakhtawar",,"COAL BAI-4A
 Muhammad Usman"
-C-16 EE (50),,"OS BSR-4B
+15,,"OS BSR-4B
  Safia Baloch","NC BCS-4F
  Usama Antuley","FOA BCS-4C (F,G,H)
  Dr. Sarfaraz Bhutto","FOM BCS-4B (D,E,F,G)
@@ -78,7 +75,7 @@ C-16 EE (50),,"OS BSR-4B
  Michael Simon","COAL BAI-4B
 Bilal Ahsan","AI BAI-4B
  Saeeda Kanwal"
-C-17 EE (59),"TOA BCS-4D
+16,"TOA BCS-4D
 Dr. Nasiruddin","OS BCS-4D
  Dr. Nausheen Shoaib","NC BSR-4C
  Mairaj","FOA BCS-4D (H,J,K)
@@ -87,7 +84,7 @@ Dr. Saad ","FOA BCS-4B (C,D,E)
  Rabia Ijaz","FSE BAI-4C
  Shazia","FSE BAI-4C
  Shazia"
-C-18 EE (50),"TOA BCS-4K
+17,"TOA BCS-4K
 Zain Noreen","TOA BCS-4F
 Syed Faisal Ali","NC BCS-4K
  Moheez ur Rahim","POE BCS-4B (F,G,H,J,K)
@@ -96,7 +93,7 @@ Syed Faisal Ali","NC BCS-4K
  Dr. Saad","Prob BSE-4B
 Abdul Basit","Prob BSE-4A
 Abdul Basit"
-C-19 EE (50),"NC BCS-4H
+18,"NC BCS-4H
  Dr. Khusro Mian","TOA BCS-4H
 Ahmed Mujtaba Shaikh","OS BCS-4H
  Atiya Jokhio","FOM BCS-4C (H,J,K)
@@ -105,14 +102,14 @@ Ahmed Mujtaba Shaikh","OS BCS-4H
 Kauser Malik","Prob BCS-4C
  Moheez ur Rahim","NC BCS-4A
  Usama Antuley"
-C-21 EE (50),,"TOA BCS-4J
+19,,"TOA BCS-4J
 Zain Noreen","TOA BSR-4B
 Ahmed Mujtaba Shaikh","Psych BAI-4A (A,B)
  Aqsa Fayyaz","Psych BSR-4A (A,B)
  Aqsa Fayyaz",,"NC BCS-4F
  Usama Antuley","DS BCS-4B (F,G,H,J,K)
 Dr. Anam Qureshi"
-D-22 EE (50),"FSE BAI-4A
+20,"FSE BAI-4A
  Sania Urooj","OS BAI-4A
  Saeeda Kanwal","TOA BSR-4A
 Dr. Muhammad Shahzad","Psych BAI-4B (B,C)
@@ -120,21 +117,21 @@ Dr. Muhammad Shahzad","Psych BAI-4B (B,C)
  Kauser Malik",,"FSE BAI-4A
  Sania Urooj","Dis BCS-4A BCS,AI,SE,CY
  Safia Baloch"
-D-23 EE (50),"TOA BSR-4C
+21,"TOA BSR-4C
 Dr. Muhammad Shahzad","OS BAI-4C
  Hania Usman","OS BAI-4C
  Hania Usman","Psych BSE-4A (A,B)
  Rabia Ijaz","Socio BSR-4A (A,B,C)
  Rabia Ijaz",,,
-D-24 EE (50),"NC BSR-4A
+22,"NC BSR-4A
  Mairaj","OS BCS-4K
 Safia Baloch",,"OS BCY-6A
 Dr. Nausheen Shoaib",,,,
-D-25 EE (50),,"Prob BSR-4A
+23,,"Prob BSR-4A
  Nadeem Khan",,"DE BAI-4B
  Alishba Tariq ","OS BCS-4J
  Mubashra Fayyaz",,,
-D-26 EE (50),"DLD BCS-2F
+24,"DLD BCS-2F
 Rabia Tabassum","ICP BCS-2F
 Ibrahim Farooqi","EW BCS-2F
 Nazia Imam","DLD BCS-2C
@@ -142,7 +139,7 @@ Waqar Ahmed","EW BCS-2C
 Huma Hafeez","DLD BCS-2A
 Waqar Ahmed","EW BCS-2A
 Huma Hafeez",
-D-27 EE (50),,"OOP BCS-2G
+25,,"OOP BCS-2G
 Bakhtawer","DLD BCS-2G
 Muhammad Rahim","ICP BCS-2D
 Ibrahim Farooqi","DLD BCS-2B
@@ -150,7 +147,7 @@ Rabia Tabassum","OOP BCS-2B
 Sobia Iftikhar","Ethics (For Non Muslim)
 Kashif Ahmed","ICP BCS-2B
 Kashif Ahmed"
-D-28 EE (50),,"OOP BCS-2H
+26,,"OOP BCS-2H
 Atiya Jokhio","ICP BCS-2H
 Ibrahim Farooqi","DLD BCS-2H
 Kashan Hussain","AI BAI-4A
@@ -158,27 +155,27 @@ Kashan Hussain","AI BAI-4A
 Sumaiyah Zahid","TSC BCS-2D
 Dr. Shahzad Shaikh","DLD BCS-2D
 Rabia Tabassum"
-E-29EE (52),,"DLD BCS-2J
+27,,"DLD BCS-2J
 Kashan Hussain","OOP BCS-2J
 Bakhtawer","MCV BSE-2A
 Fareeha Sultan","EW BCS-2E
 Maryam","ICP BCS-2E
 Dr. Shahnawaz","DLD BCS-2E
 Aashir Mahboob",
-E-30 EE (52),"EW BCY-2A
+28,"EW BCY-2A
 Maryam","IRS BCY-2A
 Farhan Ali Memon","TSC BCY-2A
 Farhan Ali Memon","MVC BCY-2A
 Dr. Nazish Kanwal","ICP BCS-2A
 Dr. Shahnawaz","OOP BCY-2A
 Abeer Gauhar",,Reserved for Dr.Shahnawaz
-E-31 EE (52),,"TSC BCY-2B
+29,,"TSC BCY-2B
 Muhammad Hasham",,"IRS BCY-2B
 Muhammad Hisham","OOP BCY-2B
 Abeer Gauhar","MVC BCY-2B
 Dr. Nazish Kanwal",,"EW BCY-2B
 Aisha Khan"
-E-32 EE (52),"MVC BSE-2A
+30,"MVC BSE-2A
 Fareeha Sultan","ISE BSE-2A
 Iqra Fahad","Ethics (For Non Muslim)
 Kashif Ahmed","DLD BAI-2A
@@ -186,49 +183,49 @@ Sania Urooj","AP BCS-2A
 Muhammad Rahim","DLD BAI-2A
 Sania Urooj",,"AP BCS-2A
 Muhammad Rahim"
-E-33 EE (52),,"EW BAI-2A
+31,,"EW BAI-2A
 Nazia Imam","IRS BAI-2A
 Muhammad Hasham","DLD BAI-2B
 Muhammad Rahim",Reserved for Sania Urooj,"DLD BAI-2B
 Muhamamd Rahim",,
-E-34 EE (52),,,,Reserved for EE,,"OOP BSE-2A
+32,,,,Reserved for EE,,"OOP BSE-2A
 Minhal Raza","ISE BSE-2A
 Iqra Fahad",
-E-35 EE (52),,,,,,,,
-LLC(R7) (50),,,,,,,,
-C-20 EE (50),Reserved for FSM,,,,,"EW Lab BCS-2F
+33,,,,,,,,
+34,,,,,,,,
+35,Reserved for FSM,,,,,"EW Lab BCS-2F
  Nazia Imam",,
-LABS,,,,,,,,
-CS LAB-1 (50),"OOP Lab BCS-2A
+36,,,,,,,,
+37,"OOP Lab BCS-2A
 Syeda Mahnoor Javed",,,,,,,
-CS LAB-2 (40),"PF Lab BCS-2A
+38,"PF Lab BCS-2A
 Muhammad Aashir",,,,,"AML / ML Lab BCS-4A
 Sohail Ahmed",,
-CS LAB-4 (50),"OOP Lab BCS-2E
+39,"OOP Lab BCS-2E
 Zainab Asif",,,"AML / ML BCS-8A
  Noureen Fatima",,EE,,
-CS LAB-5 (50),"OS Lab BCY-6A
+40,"OS Lab BCY-6A
 Muhammad Nouman Rajput",,,,,"DS Lab BCS-4C (BSR-A,B,C)
 Hafiza Bushra Sattar",,
-CS LAB-6 (50),"OOP Lab BCS-2D
+41,"OOP Lab BCS-2D
 Javeria Farooq",,,,,"OOP Lab BCS-2G
 Fatima Gado",,
-EE LAB-7 (50),"OS Lab BCS-4C
+42,"OS Lab BCS-4C
 Mubashra Fayyaz",,,,,"OOP Lab BCS-2H
 Shaharbano",,
-EE LAB-8 (50),"OS Lab BCS-4B
+43,"OS Lab BCS-4B
 Anaum Hamid",,,,,"OS Lab BSR-4B
 Ubaidullah",,
-EE LAB-10 (50),"OOP Lab BCS-2B
+44,"OOP Lab BCS-2B
 Shafique Rehman",,,,,"DLD Lab BCS-2C
 Muhammad Afnan",,
-EE LAB-11 (51),"OS Lab BCS-4E
+45,"OS Lab BCS-4E
 Muhammad Monis",,,,,EE,,
-EE LAB-12 (51),"OS Lab BCS-4G
+46,"OS Lab BCS-4G
 Ali Haider",,,,,"OS Lab BSR-4A
 Usama Bin Umar",,
-EE LAB-13 (51),"COAL Lab BAI-4B
+47,"COAL Lab BAI-4B
 Talha Shahid",,,,,"OS Lab BCS-4D
 Zainab Asif",,
-EE MPI Lab,,,,Reserved for Afnan,,"DLD Lab BCS-2J
+48,,,,Reserved for Afnan,,"DLD Lab BCS-2J
 Misbah Haider",,

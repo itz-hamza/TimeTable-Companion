@@ -1,4 +1,0 @@
-import pandas as pd
-df = pd.read_excel('FAST School of Computing - Spring  2024 TimeTable  V1.2.xlsx')
-
-print(df)
